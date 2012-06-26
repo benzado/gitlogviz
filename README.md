@@ -12,7 +12,7 @@ Third, open `git-log.pdf` in a PDF viewer to impress your friends and confound y
 
 ## Sample Output
 
-![Sample Image](sample.png)
+![Sample Image](https://github.com/benzado/gitlogviz/raw/master/sample.png)
 
 ## License
 
