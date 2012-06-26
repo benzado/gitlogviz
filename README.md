@@ -10,6 +10,10 @@ Second, run this script from the top level of a git repository, like so:
 
 Third, open `git-log.pdf` in a PDF viewer to impress your friends and confound your enemies!
 
+## Sample Output
+
+![Sample Image](sample.png)
+
 ## License
 
 Copyright (c) 2012 Benjamin Ragheb
