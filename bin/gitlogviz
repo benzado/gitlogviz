@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+# gitlogviz
+# by Benjamin Ragheb <ben@benzado.com>
+# <http://github.com/benzado/gitlogviz>
+
+# Run this script in the top level of your git working copy. The output is meant
+# to be sent to GraphViz. You can either save it to a .dot file and open it with
+# a GraphViz viewer app, or create a PDF by piping output to dot like so:
+#
+#   gitlogviz | dot -Tpdf -o git-log.pdf`
+#
+
+require 'git_log_viz'
+
+GitLogViz::Command.new.run
